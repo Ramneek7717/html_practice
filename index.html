@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- this heading will be change in future -->
+
+    <h1> This is a heading</h1>
+    <!-- Improve below program-->
+    <p> This is a paragraph</p>
+    <p>Lorem, ipsum dolor.</p> 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur dicta sint, numquam blanditiis omnis officia accusantium animi! Saepe nesciunt nam vitae esse, deleniti perspiciatis ea distinctio porro totam, explicabo quod.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vero doloribus, ipsum quis ea nisi porro debitis pariatur praesentium incidunt laboriosam ipsa id sapiente dolorem harum soluta possimus. Et, culpa placeat. Quibusdam, hic sit quaerat recusandae quod quos sed impedit ullam nam dignissimos asperiores at quam! Architecto sunt ratione quod ex, officia excepturi aliquam debitis vero voluptas corporis velit voluptatum cumque hic eligendi exercitationem? Omnis, voluptate voluptatem laborum quaerat qui praesentium nisi aliquid aperiam natus facilis, earum placeat. Officia distinctio et voluptas. Voluptas, impedit quia rerum error doloremque quisquam aut temporibus nostrum eligendi similique deleniti sit non molestiae distinctio exercitationem beatae quod labore ratione optio enim. Maiores similique ipsum aperiam vero consequatur cum culpa dignissimos fugiat, consectetur voluptatum architecto sed velit, ut tempora, incidunt tenetur tempore dolores! Ducimus, culpa sit, explicabo animi repudiandae beatae quis aut voluptatem molestias excepturi eveniet rerum eligendi aliquam voluptatum atque at sed voluptates distinctio porro tempore nostrum inventore ab sunt. Sequi rem beatae voluptatem, voluptates fugiat obcaecati. Tenetur quo animi laudantium magni quibusdam tempora aspernatur, veritatis excepturi ducimus, quod quia possimus repellat saepe rerum modi neque dolorem labore officiis iusto, perspiciatis vero est quis cupiditate. Harum similique, pariatur beatae molestias mollitia fuga distinctio veniam ad eveniet sed, corporis tempora aut accusamus ab laboriosam? Dolor optio animi necessitatibus reprehenderit quos, temporibus nemo rerum sequi deleniti explicabo excepturi ut eos, aliquid ipsa ex omnis voluptatum fugit. Cupiditate nobis eius ad labore quia! Beatae corporis vel numquam hic quisquam neque cupiditate incidunt fugit aperiam dolorem dolore deleniti delectus et error alias nulla odio accusamus voluptatem veniam, velit iure! Possimus vel nihil, dolore pariatur iure quod laudantium quibusdam explicabo similique exercitationem nisi natus repudiandae ipsum animi perferendis voluptates, amet dignissimos reiciendis dicta molestias minus doloremque. Veniam debitis quod nostrum! Alias repellat iusto pariatur quos officia architecto, reprehenderit enim quia!</p>   
+</body>
+<hr><h1>Books to read</h1>
+<p>There are alot of books to read for you</p>
+<!-- Example of absolut link-->
+<a href="https://www.wikipedia.org/" class="class1" id="id1"> Click here to go for wikipedia</a>
+<h2>Books to read</h2>
+<h3>Books to read</h3>
+<h4>Books to read</h4>
+<h5>Books to read</h5>
+<h6>Books to read</h6>
+<!-- Example of relative link-->
+
+<a href="about.html">About</a>
+<hr>
+<!-- Image tag-->
+<img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWD1fHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=fromat&fit=crop&w=1301&q=80" alt="BOOKS PIC">
+<!-- BOLD,ITALIC AND UNDERLINE-->
+<hr>
+<br>
+<b>THIS IS BOLD</b>
+<br>
+
+<i>THIS IS ITALIC</i>
+<br>
+<u>THIS IS UNDERLINE</u>
+<hr>
+<big>This is big</big><br>
+<small>THIS IS Small</small><br>
+<!--subscript and superscript-->
+<hr>
+<p>co<sub>2</sub></p>
+<p>a<sup>2</sup></p>
+<hr>
+class Main {
+    public static void main(String[] args) {
+  
+      int n = 10, firstTerm = 0, secondTerm = 1;
+      System.out.println("Fibonacci Series till " + n + " terms:");
+  
+      for (int i = 1; i <= n; ++i) {
+        System.out.print(firstTerm + ", ");
+  
+        // compute the next term
+        int nextTerm = firstTerm + secondTerm;
+        firstTerm = secondTerm;
+        secondTerm = nextTerm;
+      }
+    }
+  }
+ 
+  
+  
+  <hr>
+  <pre>class Main {
+    public static void main(String[] args) {
+  
+      int n = 10, firstTerm = 0, secondTerm = 1;
+      System.out.println("Fibonacci Series till " + n + " terms:");
+  
+      for (int i = 1; i <= n; ++i) {
+        System.out.print(firstTerm + ", ");
+  
+        // compute the next term
+        int nextTerm = firstTerm + secondTerm;
+        firstTerm = secondTerm;
+        secondTerm = nextTerm;
+      }
+    }
+  }
+  Run Code
+  Output
+  
+  Fibonacci Series till 10 terms:
+  0, 1, 1, 2, 3, 5, 8, 13, 21, 34,
+  In the above program, firstTerm and secondTerm are initialized with 0 and 1 respectively (first two digits of Fibonacci series).
+  
+  Here, we have used the for loop to
+  
+  print the firstTerm of the series
+  compute nextTerm by adding firstTerm and secondTerm
+  assign value of secondTerm to firstTerm and nextTerm to secondTerm
+  We can also use a while loop to generate the Fibonacci series in Java.
+  
+  Example 2: Display Fibonacci series using while loop
+  class Main {
+    public static void main(String[] args) {
+  
+      int i = 1, n = 10, firstTerm = 0, secondTerm = 1;
+      System.out.println("Fibonacci Series till " + n + " terms:");
+  
+      while (i <= n) {
+        System.out.print(firstTerm + ", ");
+  
+        int nextTerm = firstTerm + secondTerm;
+        firstTerm = secondTerm;
+        secondTerm = nextTerm;
+  
+        i++;
+      }
+    }
+  }
+  
+  </pre>
+
+  
+     
+  
+</body>
+</html>
